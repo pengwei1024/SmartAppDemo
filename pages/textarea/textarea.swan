@@ -1,0 +1,15 @@
+<view class="wrap">
+    <view class="section">
+        <view class="title">输入区高度自适应</view>
+        <textarea
+        auto-height
+        bindinput="bindInput"
+        bindfocus="bindFocus"
+        bindblur="bindBlur"
+        bindlinechange="bindLinechange" />
+    </view>
+    <view class="section">
+        <view class="title">自动聚焦的textarea</view>
+        <textarea focus="{{!focus}}" style="height:{{height}}rem"/>
+    </view>
+</view>

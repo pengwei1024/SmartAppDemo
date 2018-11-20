@@ -1,0 +1,27 @@
+/**
+ * @demo page component for image
+ * @author lvlei
+ */
+
+.wrap {
+    font-size: .16rem;
+}
+.img-box {
+    margin: auto .23rem;
+    position: relative;
+    height: 1.13rem;
+}
+.local-img {
+    background: #EAEAEA;
+}
+.internet-img {
+    background-color: #D2D3D4;
+}
+.swan-icon {
+    width: 1.46rem;
+    height: .27rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

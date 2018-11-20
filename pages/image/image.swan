@@ -1,0 +1,16 @@
+<view class="container">
+    <view class="wrap">
+        <view class="title">Local Image</view>
+        <view class="img-box local-img">
+            <image class="swan-icon" src="../../images/local-image.png"></image>
+        </view>
+        <view class="title">Internet Image</view>
+        <view class="img-box internet-img">
+            <image class="swan-icon" src="../../images/internet-image.png"></image>
+        </view>
+    </view>
+    <view class="page-title">
+        <view class="page-title-line"></view>
+        <view class="page-title-text">image</view>
+    </view>
+</view>
